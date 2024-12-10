@@ -1,0 +1,98 @@
+body{
+    background-color:  #001e4d;
+}
+.overallcontainer{
+    max-width: 600px;
+    position: relative;
+    left: 30%;
+    right: 30%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+}
+.answer1{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 108, 108);
+}
+
+.answer2{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 108, 108);
+}
+
+.answer3{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 108, 108);
+}
+.next{
+    padding: 10px 30px;
+    margin-left: 30px;
+    background-color:  #001e4d;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.previous{
+    padding: 10px 30px;
+    margin-left: 30px;
+    background-color:  #001e4d;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+}
+.topic{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #001e4d; /* Matches the theme color */
+}
+
+.end-message {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: green; /* Success message color */
+}
+.restart {
+    padding: 10px 30px;
+    margin-left: 30px;
+    background-color: #4CAF50; /* Green for a restart action */
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.restart:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+}
