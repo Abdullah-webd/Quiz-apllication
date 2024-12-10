@@ -96,3 +96,33 @@ body{
 .restart:active {
     background-color: #3e8e41; /* Even darker green when clicked */
 }
+/* Correct Answer Style */
+.correct {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: 2px solid #3e8e41; /* Darker green border */
+  }
+  
+  /* Incorrect Answer Style */
+  .incorrect {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+    border: 2px solid #d32f2f; /* Darker red border */
+  }
+  
+  /* Optional: Add hover effects for buttons */
+  button:hover:not(.correct):not(.incorrect) {
+    background-color: #f0f0f0; /* Light grey for hover effect */
+    cursor: pointer;
+  }
+  
+  /* Reset Button Styles after quiz restart */
+  button {
+    background-color: #ffffff; /* White background */
+    color: black; /* Black text */
+    border: 1px solid #ccc; /* Grey border */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
